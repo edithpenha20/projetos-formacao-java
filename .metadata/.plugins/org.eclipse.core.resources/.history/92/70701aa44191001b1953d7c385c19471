@@ -1,0 +1,23 @@
+
+public class Cursos {
+
+	public class ExemploCursos {
+
+		private String nome;
+		private int alunos;
+		
+		public ExemploCursos(String nome, int alunos) {
+			this.nome = nome;
+			this.alunos = alunos;
+		}
+		
+		public String getNome() {
+			return nome;
+		}
+		
+		public int getAlunos() {
+			return alunos;
+		}
+	}
+
+}
